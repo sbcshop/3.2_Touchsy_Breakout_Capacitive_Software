@@ -2,9 +2,9 @@
 <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20banner.jpg">
 
 ## Resources
-  * [Schematic](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Hardware/blob/main/Design%20Data/Sch%203.2%20Inch%20Touchsy%20based%20on%20ESp32(Resistive).pdf)
-  * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Hardware)
-  * [Step File](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Hardware/blob/main/Mechanical%20Data/Step%203.2%20Inch%20Touchsy%20based%20on%20ESp32(Resistive).step)
+  * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Design%20Data/Sch%203.2%20inch%20Touchsy%20Breakout(capacitive).pdf)
+  * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware)
+  * [Step File](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Mechanical%20Data/STEP%203.2%20inch%20Touchsy%20Breakout(capacitive).step)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ESP32 S3 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/index.html)
   * [ESP32 S3 Datasheet](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/documents/esp32-s3_datasheet_en.pdf)
