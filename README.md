@@ -51,8 +51,8 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   |---|---|---|
   | 1 | SCL | Serial Clock pin for I2C interfacing |
   | 3 | SDA  | Serial Data pin for I2C interfacing |
-  | 18 | IRQ | Touch Panel Interrupt pin, Logic LOW when touch detected | |
-  | 20 | TRS | Touch Panel Reset |
+  | 18 | IRQ | Touch Controller Interrupt pin, Logic LOW when touch detected | |
+  | 20 | TRS | Touch Controller Reset |
   
   **Note:** RST & TRS pins connected internally so while interfacing with MCU's GPIO you can use only one instead of both
   
