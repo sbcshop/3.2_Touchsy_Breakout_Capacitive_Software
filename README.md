@@ -1,6 +1,48 @@
 # 3.2_Touchsy_Breakout_Capacitive_Software
 <img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20banner.jpg">
+3.2" Touchsy Capacitive Breakout - the perfect display solution for users who prefer use their favourite Arduino UNO/Mega/Nano or any other controllers. Here also you have the choice between resistive and capacitive touchscreens to suit your specific requirements.
 
+With Touchsy Capacitive Breakout, you can easily program your display with the Arduino IDE and use it in various projects and applications, from DIY electronics to robotics. The level shifter ensures compatibility with various hardware options, and the support for both 3.3V and 5V makes it versatile and flexible.
+Both SPI and Parallel data pins available on this Breakout. So you get flexibility of interfacing either SPI or 8 bit Parallel mode for faster operation. 
+
+Here are the features and specifications that make 3.2" Touchsy Capacitive Breakout a unique and must-have accessory:
+
+### Features:
+- Perfect for Arduino community with 3/4 wire SPI interface, 8-bit parallel interface
+- The level shifter for compatibility with various hardware options
+- Supports both 3.3V and 5V, making it versatile and flexible
+- Compatibility: Arduino or other controllers
+- Connectivity: 3/4 wire SPI interface, 8- bit parallel interface
+
+### Specifications:
+- 3.2” Display with resolution 240 × 320
+- Operating voltage of pins compatible for both 3.3V and 5V
+- ILI934 Display Driver
+- FT6236 capacitive touch controller
+- Appearance: RGB
+- Colors: 65K/262K
+- Viewing Angle(in degree): Left:70, Right:70, Up:50, Down:70 
+- Operating Temperature is -20℃~70℃
+- Storage Temperature is -30℃~80℃
+
+## Getting Started with 3.2 Touchsy Capacitive Breakout
+### Pinout
+<img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/Touchsy%20ESP32%20Res%20pinout.jpg">
+
+- (1) 3.2” Resistive Touch Display 
+- (2) Extra GPIO breakout
+- (3) Buzzer 
+- (4) Battery connection port
+- (5) Power pins breakout 
+- (6) Type C for Programming and Power both
+- (7) Additional GPIO breakout 
+- (8) SD card slot 
+- (9) ESP32 S3 module
+- (10) Boot Button
+- (11) Reset Button
+- (12) Two Programmable Buttons
+
+  
 ## Resources
   * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Design%20Data/Sch%203.2%20inch%20Touchsy%20Breakout(capacitive).pdf)
   * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware)
