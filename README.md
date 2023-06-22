@@ -27,20 +27,10 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
 
 ## Getting Started with 3.2 Touchsy Capacitive Breakout
 ### Pinout
-<img src="https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/Touchsy%20ESP32%20Res%20pinout.jpg">
+<img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/Touchsy%20Breakout%20Capacitive%20Pinout.jpg">
 
-- (1) 3.2” Resistive Touch Display 
-- (2) Extra GPIO breakout
-- (3) Buzzer 
-- (4) Battery connection port
-- (5) Power pins breakout 
-- (6) Type C for Programming and Power both
-- (7) Additional GPIO breakout 
-- (8) SD card slot 
-- (9) ESP32 S3 module
-- (10) Boot Button
-- (11) Reset Button
-- (12) Two Programmable Buttons
+- (1) 3.2” Capacitive Touch Display 
+- (2) Breakout Pins
 
   
 ## Resources
