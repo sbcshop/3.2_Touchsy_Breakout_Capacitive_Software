@@ -30,7 +30,7 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
 <img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/Touchsy%20Breakout%20Capacitive%20Pinout.jpg">
 
 - (1) 3.2” Capacitive Touch Display 
-- (2) Breakout Pins
+- (2) Display Breakout Pins
 
   
 ## Resources
