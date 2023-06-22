@@ -78,6 +78,8 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Design%20Data/Sch%203.2%20inch%20Touchsy%20Breakout(capacitive).pdf)
   * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware)
   * [Step File](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Mechanical%20Data/STEP%203.2%20inch%20Touchsy%20Breakout(capacitive).step)
+  * [MicroPython getting started for RPi Pico/Pico W](https://docs.micropython.org/en/latest/rp2/quickref.html)
+  * [Pico W Getting Started](https://projects.raspberrypi.org/en/projects/get-started-pico-w)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ESP32 S3 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/index.html)
   * [ESP32 S3 Datasheet](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/documents/esp32-s3_datasheet_en.pdf)
