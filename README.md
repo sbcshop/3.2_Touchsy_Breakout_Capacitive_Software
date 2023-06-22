@@ -69,7 +69,9 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   ## Interfacing
   ### Interfacing Breakout with Pico W
   - Following below wiring diagram for connection
-    <img src=" ">
+    
+    <img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/capacitive_display_picow_wiring.jpg">
+    
   - Now just visit [Pico W with Capacitive GitHub](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software), and follow guide to add required library and then running example codes provided there for display and touch operations on Touch Display Module.
     
 ## Resources
