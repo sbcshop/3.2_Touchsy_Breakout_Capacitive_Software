@@ -66,14 +66,43 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   
   **Note:** Using only one supply 5V or 3.3V at a time is enough to power Display Module
 
-  ## Interfacing
-  ### Interfacing Breakout with Pico W
+## Interfacing
+### Interfacing Breakout with Pico W
   - Following below wiring diagram for connection
     
     <img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/capacitive_display_picow_wiring.jpg">
     
   - Now just visit [Pico W with Capacitive GitHub](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software), and follow guide to add required library and then running example codes provided there for display and touch operations on Touch Display Module.
-    
+
+### Interfacing Breakout with Arduino 
+**Circuit Connection:** Follow Below connection
+  
+  *Breakout Pins <-> Arduino Pins*
+  | Breakout Pin No. | Breakout Symbol | Arduino Pin|
+  |---|---|---|
+  | 5 | CS | D10 |
+  | 7 | CLK  | D13 |
+  | 9 | D/C | D9 |
+  | 11 | DIN | D11 |
+  | 13 | RST | D6 |
+  | 15 | BL | D5  |
+  | 1 | SCL | A5/SCL |
+  | 3 | SDA  | A4/SDA |
+  | 18 | IRQ | - |
+  | 17 | GND | GND |
+  | 19 | 5V  | 5V  |
+  
+**Installing Libraries:**
+   - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. 
+   - Download [library zip file](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/libraries.zip) provided here in github.
+   - Extract and copy files inside Document > Arduino > Libraries folder. Make sure to restart Arduino IDE whenever you update or add any libraries.
+
+     <img src= "https://github.com/sbcshop/3.2_Touchsy_ESP-32_Resistive_Software/blob/main/images/library_files_path.png" />
+     
+**Testing** 
+   - At this step you are all set to test codes, for easy getting started we have provided various demo [example codes](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/tree/main/examples/) in github which you can download and try. 
+   - Open one example code in Arduino and make sure you have selected correct Arduino Uno board with suitable com port, click on upload button.
+     
 ## Resources
   * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Design%20Data/Sch%203.2%20inch%20Touchsy%20Breakout(capacitive).pdf)
   * [Hardware Files](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware)
