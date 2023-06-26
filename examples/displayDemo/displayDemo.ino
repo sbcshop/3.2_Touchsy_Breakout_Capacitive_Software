@@ -14,15 +14,29 @@
 
 Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC, TFT_MOSI, TFT_CLK, TFT_RST, TFT_MISO);
 
+#define TEXTCOLOR ILI9341_YELLOW
 
 #define TFT_BACKLIGHT_PIN   5 
+
 void setup() {
   Serial.begin(9600);
   Serial.println("ILI9341 Test!"); 
- pinMode( TFT_BACKLIGHT_PIN, OUTPUT );     // set backlight pin as OUTPUT
+  pinMode( TFT_BACKLIGHT_PIN, OUTPUT );     // set backlight pin as OUTPUT
   digitalWrite( TFT_BACKLIGHT_PIN, HIGH );  // Make high to Turn On backlight
+  
   tft.begin();
+  tft.fillScreen(ILI9341_BLACK); // background color
+  tft.setTextSize(2);
+  textDisplay("Hello there...", 40, 30, ILI9341_YELLOW); // pass text, x & y co-ordinates, textcolor to function
+  delay(500);
 
+  tft.fillScreen(ILI9341_BLACK); // background color
+  tft.setRotation(3);
+  tft.setTextSize(3);
+  textDisplay("Touchsy Breakout", 20, 40, ILI9341_CYAN);
+  textDisplay("Demo", 120, 90, ILI9341_CYAN);
+  delay(1000);
+  
   Serial.print(F("Horiz/Vert Lines         "));
   Serial.println(testFastLines(ILI9341_RED, ILI9341_BLUE));
   delay(500);
@@ -48,6 +62,12 @@ void loop(void) {
   delay(10);
 }
 
+
+void textDisplay(const char *textVal, uint16_t x, uint16_t y, uint16_t textColor  ){
+  tft.setTextColor(textColor, ILI9341_BLACK); // set text color
+  tft.setCursor(x, y);
+  tft.println(textVal);
+}
 
 unsigned long testFastLines(uint16_t color1, uint16_t color2) {
   unsigned long start;
