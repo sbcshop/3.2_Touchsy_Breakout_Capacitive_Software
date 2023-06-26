@@ -104,7 +104,8 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
 **Testing** 
    - At this step you are all set to test codes, for easy getting started we have provided Display and Touch demo [example codes](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/tree/main/examples/) in github which you can download and try. 
    - Open any one example code in Arduino and make sure you have selected correct Arduino Uno board with suitable com port, click on upload button.
-
+     
+     <img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/arduino_select_upload.gif">
      
 ## Resources
   * [Schematic](https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Hardware/blob/main/Design%20Data/Sch%203.2%20inch%20Touchsy%20Breakout(capacitive).pdf)
