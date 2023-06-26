@@ -74,11 +74,11 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
     
   - Now just visit [Pico W with Capacitive GitHub](https://github.com/sbcshop/3.2_Touchsy_Pico_W_Capacitive_Software), and follow guide to add required library and then running example codes provided there for display and touch operations on Touch Display Module.
 
-### Interfacing Breakout with Arduino 
+### Interfacing Breakout with Arduino Uno
 **Circuit Connection:** Follow Below connection
   
   *Breakout Pins <-> Arduino Pins*
-  | Breakout Pin No. | Breakout Symbol | Arduino Pin|
+  | Breakout Pin No. | Breakout Symbol | Arduino Uno Pin|
   |---|---|---|
   | 5 | CS | D10 |
   | 7 | CLK  | D13 |
@@ -91,6 +91,8 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   | 18 | IRQ | - |
   | 17 | GND | GND |
   | 19 | 5V  | 5V  |
+  
+  Here interfacing with Arduino Uno provided, taking reference you can use Arduino Mega, Nano, or any other arduino family boards.
   
 **Installing Libraries:**
    - Download Arduino IDE from [official site](https://www.arduino.cc/en/software) and install into your system. 
