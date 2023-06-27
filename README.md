@@ -91,7 +91,7 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
   | 18 | IRQ | - |
   | 17 | GND | GND |
   | 19 | 5V  | 5V  |
-  | 20 | VCC | 5V |
+  | 21 | VCC | 5V |
   
   **Note:** VCC connection required when connecting breakout with 5V operating MCU.
   Here interfacing with Arduino Uno provided, taking reference you can use Arduino Mega, Nano, or any other arduino family boards.
