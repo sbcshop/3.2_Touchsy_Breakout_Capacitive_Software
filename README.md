@@ -76,6 +76,8 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
 
 ### Interfacing Breakout with Arduino Uno
 **Circuit Connection:** Follow Below connection
+
+<img src="https://github.com/sbcshop/3.2_Touchsy_Breakout_Capacitive_Software/blob/main/images/Touchsy%20Cap%20breakout%20arduino%20wiring.jpg">
   
   *Breakout Pins <-> Arduino Pins*
   | Breakout Pin No. | Breakout Symbol | Arduino Uno Pin|
