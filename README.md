@@ -17,7 +17,7 @@ Here are the features and specifications that make 3.2" Touchsy Capacitive Break
 ### Specifications:
 - 3.2” Display with resolution 240 × 320
 - Operating voltage of pins compatible for both 3.3V and 5V
-- ILI934 Display Driver
+- ILI9341 Display Driver
 - FT6236 capacitive touch controller
 - Appearance: RGB
 - Colors: 65K/262K
