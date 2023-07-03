@@ -1,5 +1,5 @@
 # 3.2_Touchsy_Breakout_Capacitive_Software
-<img src="https://github.com/sbcshop/3.2_Touchsy_HAT_Resistive_Software/blob/main/images/Touchsy%20banner.jpg">
+<img src="https://cdn.shopify.com/s/files/1/1217/2104/files/TouchsyBREAKOUTBANNER.jpg?v=1688108015">
 3.2" Touchsy Capacitive Breakout - the perfect display solution for users who prefer use their favourite Arduino UNO/Mega/Nano or any other controllers. Here also you have the choice between resistive and capacitive touchscreens to suit your specific requirements.
 
 With Touchsy Capacitive Breakout, you can easily program your display with the Arduino IDE and use it in various projects and applications, from DIY electronics to robotics. The level shifter ensures compatibility with various hardware options, and the support for both 3.3V and 5V makes it versatile and flexible.
